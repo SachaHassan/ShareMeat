@@ -3,10 +3,12 @@
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     z-index: 100;
     padding: 16px 0;
     transition: var(--transition-slow);
 }
+
 
 .navbar--scrolled {
     background: rgba(3, 7, 18, 0.85);
@@ -20,7 +22,9 @@
     display: flex;
     align-items: center;
     gap: 32px;
+    width: 100%;
 }
+
 
 .navbar__logo {
     display: flex;

@@ -454,3 +454,13 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 500px) {
+    .allergen-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stepper__label {
+        display: none;
+    }
+}

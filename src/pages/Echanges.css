@@ -104,6 +104,13 @@
     width: 100%;
 }
 
+@media (max-width: 600px) {
+    .echanges__search-wrap {
+        width: 100%;
+    }
+}
+
+
 .echanges__cats {
     display: flex;
     gap: 8px;

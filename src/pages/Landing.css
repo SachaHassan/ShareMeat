@@ -138,8 +138,30 @@
 
     .hero {
         padding: 60px 0 40px;
+        min-height: auto;
+    }
+
+    .hero__title {
+        font-size: clamp(2.2rem, 8vw, 3.2rem);
     }
 }
+
+@media (max-width: 600px) {
+    .hero__cta {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero__cta .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero__trust {
+        justify-content: center;
+    }
+}
+
 
 /* ===== PROBLEM ===== */
 .problem-section__inner {
@@ -593,10 +615,22 @@
     margin: 0 auto;
 }
 
-.cta-box__actions {
-    display: flex;
-    gap: 14px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 8px;
+@media (max-width: 600px) {
+    .cta-box {
+        padding: 40px 20px;
+    }
+
+    .cta-box__actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-box__actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
 }
