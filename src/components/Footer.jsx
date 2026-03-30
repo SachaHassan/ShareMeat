@@ -34,7 +34,7 @@ export default function Footer() {
                     </div>
                     <div className="footer__col">
                         <h4>Contact</h4>
-                        <a href="#">contact@blablafood.fr</a>
+                        <a href="#">contact@sharemeat.fr</a>
                         <a href="#">CROUS partenaires</a>
                         <a href="#">FAQ</a>
                     </div>
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
             <div className="footer__bottom">
                 <div className="container">
-                    <p>© 2026 BlablaFood – Projet Design Thinking MIAGE · Développé avec ❤️ pour lutter contre le gaspillage alimentaire</p>
+                    <p>© 2026 ShareMeat – Projet Design Thinking MIAGE · Développé avec ❤️ pour lutter contre le gaspillage alimentaire</p>
                 </div>
             </div>
         </footer>
