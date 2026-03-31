@@ -35,9 +35,6 @@ export default function Navbar() {
                     <Link to="/explorer" className={`navbar__link ${isActive('/explorer') ? 'active' : ''}`}>
                         Explorer
                     </Link>
-                    <Link to="/echanges" className={`navbar__link ${isActive('/echanges') ? 'active' : ''}`}>
-                        Échanges
-                    </Link>
                     <Link to="/publier" className={`navbar__link ${isActive('/publier') ? 'active' : ''}`}>
                         Partager
                     </Link>
@@ -71,9 +68,8 @@ export default function Navbar() {
 
             {/* Mobile menu */}
             <div className={`navbar__mobile ${menuOpen ? 'open' : ''}`}>
-                <Link to="/explorer" className="navbar__mobile-link">🔍 Explorer les offres</Link>
-                <Link to="/echanges" className="navbar__mobile-link">🤝 Échanges Solidaires</Link>
-                <Link to="/publier" className="navbar__mobile-link">➕ Partager un plat</Link>
+                <Link to="/explorer" className="navbar__mobile-link">🔍 Explorer (Plats & Garde-Manger)</Link>
+                <Link to="/publier" className="navbar__mobile-link">➕ Partager</Link>
                 <Link to="/profil" className="navbar__mobile-link">👤 Mon Profil</Link>
             </div>
         </nav>

@@ -464,3 +464,107 @@
         display: none;
     }
 }
+
+/* ─── Share type selection ─── */
+.share-type-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+
+.share-type-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 28px;
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-xl);
+    text-align: left;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.share-type-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(16, 185, 129, 0.45);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.2), 0 0 0 1px rgba(16, 185, 129, 0.15);
+}
+
+.share-type-card--amber:hover {
+    border-color: rgba(245, 158, 11, 0.45);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.2), 0 0 0 1px rgba(245, 158, 11, 0.15);
+}
+
+.share-type-card__icon {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+.share-type-card__title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.share-type-card__desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.share-type-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.share-type-card__cta {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+/* Back button */
+.publier__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px 0;
+    margin-bottom: 16px;
+    transition: var(--transition);
+}
+
+.publier__back:hover {
+    color: var(--text-primary);
+}
+
+/* btn-amber */
+.btn-amber {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 14px rgba(245, 158, 11, 0.25);
+}
+
+.btn-amber:hover {
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+    .share-type-grid {
+        grid-template-columns: 1fr;
+    }
+}
