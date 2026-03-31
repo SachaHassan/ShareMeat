@@ -38,7 +38,7 @@ export default function Login() {
                 {/* Logo */}
                 <Link to="/" className="auth-card__logo">
                     <span className="auth-card__logo-icon">🥗</span>
-                    <span className="auth-card__logo-text">Share<span className="gradient-text">Meat</span></span>
+                    <span className="auth-card__logo-text">Share<span className="gradient-text">Meal</span></span>
                 </Link>
 
                 <h1 className="auth-card__title">Bon retour 👋</h1>

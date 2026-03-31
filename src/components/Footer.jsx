@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="footer__brand">
                     <div className="footer__logo">
                         <span>🥗</span>
-                        <span>Blabla<span className="gradient-text">Food</span></span>
+                        <span>Share<span className="gradient-text">Meal</span></span>
                     </div>
                     <p className="footer__tagline">
                         L'économie circulaire alimentaire sur ton campus.
@@ -34,7 +34,7 @@ export default function Footer() {
                     </div>
                     <div className="footer__col">
                         <h4>Contact</h4>
-                        <a href="#">contact@sharemeat.fr</a>
+                        <a href="mailto:contact@sharemeal.fr">contact@sharemeal.fr</a>
                         <a href="#">CROUS partenaires</a>
                         <a href="#">FAQ</a>
                     </div>
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
             <div className="footer__bottom">
                 <div className="container">
-                    <p>© 2026 ShareMeat – Projet Design Thinking MIAGE · Développé avec ❤️ pour lutter contre le gaspillage alimentaire</p>
+                    <p>© 2026 ShareMeal – Projet Design Thinking MIAGE · Développé avec ❤️ pour lutter contre le gaspillage alimentaire</p>
                 </div>
             </div>
         </footer>

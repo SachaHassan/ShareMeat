@@ -34,7 +34,7 @@ export default function Navbar() {
                 <Link to="/" className="navbar__logo">
                     <span className="navbar__logo-icon">🥗</span>
                     <span className="navbar__logo-text">
-                        Share<span className="gradient-text">Meat</span>
+                        Share<span className="gradient-text">Meal</span>
                     </span>
                 </Link>
 

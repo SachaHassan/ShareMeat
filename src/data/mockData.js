@@ -233,7 +233,7 @@ export const testimonials = [
         id: 't2',
         name: 'Kévin, L3 Info',
         avatar: '🧑‍💻',
-        text: 'En période de partiels, ne pas avoir à cuisiner et manger un vrai repas fait maison, ça change tout. Merci ShareMeat.',
+        text: 'En période de partiels, ne pas avoir à cuisiner et manger un vrai repas fait maison, ça change tout. Merci ShareMeal.',
         rating: 5,
     },
     {

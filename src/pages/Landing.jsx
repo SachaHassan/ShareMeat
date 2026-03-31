@@ -28,7 +28,7 @@ export default function Landing() {
 
                     <p className="hero__subtitle animate-fade-up animate-fade-up-3">
                         Chaque soir, des tonnes de plats faits maison finissent à la poubelle dans les résidences étudiantes.
-                        ShareMeat connecte les bons cuisiniers et les estomacs vides — en toute sécurité, via nos <strong>Frigo-Lockers</strong> connectés sur ton campus.
+                        ShareMeal connecte les bons cuisiniers et les estomacs vides — en toute sécurité, via nos <strong>Frigo-Lockers</strong> connectés sur ton campus.
                     </p>
 
                     <div className="hero__cta animate-fade-up animate-fade-up-4">
@@ -111,7 +111,7 @@ export default function Landing() {
                         <span className="badge badge-green">✅ Notre solution</span>
                         <h2 className="section-title" style={{ marginTop: 16 }}>
                             Comment fonctionne
-                            <span className="gradient-text"> ShareMeat</span> ?
+                            <span className="gradient-text"> ShareMeal</span> ?
                         </h2>
                         <p className="section-subtitle" style={{ marginTop: 12 }}>
                             Un écosystème physique + digital qui élimine chaque frein identifié.
@@ -270,7 +270,7 @@ export default function Landing() {
                 <div className="container">
                     <div className="cta-box animate-fade-up">
                         <span className="cta-box__emoji">🚀</span>
-                        <h2 className="section-title">Prêt à rejoindre <span className="gradient-text">ShareMeat</span> ?</h2>
+                        <h2 className="section-title">Prêt à rejoindre <span className="gradient-text">ShareMeal</span> ?</h2>
                         <p className="section-subtitle">
                             Rejoins des milliers d'étudiants qui transforment leurs restes en bonheur partagé.
                         </p>

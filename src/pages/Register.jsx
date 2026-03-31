@@ -116,7 +116,7 @@ export default function Register() {
                 {/* Logo */}
                 <Link to="/" className="auth-card__logo">
                     <span className="auth-card__logo-icon">🥗</span>
-                    <span className="auth-card__logo-text">Share<span className="gradient-text">Meat</span></span>
+                    <span className="auth-card__logo-text">Share<span className="gradient-text">Meal</span></span>
                 </Link>
 
                 {/* Step progress */}
@@ -132,7 +132,7 @@ export default function Register() {
                         <span className="crous-badge">🎓 Vérification CROUS</span>
                         <h1 className="auth-card__title">Crée ton compte</h1>
                         <p className="auth-card__subtitle">
-                            ShareMeat est réservé aux étudiants. Commence par entrer ton adresse email universitaire pour prouver que tu es bien inscrit(e).
+                            ShareMeal est réservé aux étudiants. Commence par entrer ton adresse email universitaire pour prouver que tu es bien inscrit(e).
                         </p>
 
                         <form className="auth-card__form" onSubmit={handleEmailSubmit}>

@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
     const [user, setUser] = useState(null)
     const [users, setUsers] = useState(() => {
         try {
-            const stored = localStorage.getItem('sharemeat_users')
+            const stored = localStorage.getItem('sharemeal_users')
             return stored ? JSON.parse(stored) : DEFAULT_USERS
         } catch {
             return DEFAULT_USERS
@@ -34,14 +34,14 @@ export function AuthProvider({ children }) {
     /* Restore session on mount */
     useEffect(() => {
         try {
-            const stored = localStorage.getItem('sharemeat_session')
+            const stored = localStorage.getItem('sharemeal_session')
             if (stored) setUser(JSON.parse(stored))
         } catch { /* ignore */ }
     }, [])
 
     /* Persist users list */
     useEffect(() => {
-        localStorage.setItem('sharemeat_users', JSON.stringify(users))
+        localStorage.setItem('sharemeal_users', JSON.stringify(users))
     }, [users])
 
     /* Login — returns null on success, error string on failure */
@@ -52,7 +52,7 @@ export function AuthProvider({ children }) {
         if (!found) return 'Identifiant ou mot de passe incorrect.'
         const { password: _, ...safeUser } = found
         setUser(safeUser)
-        localStorage.setItem('sharemeat_session', JSON.stringify(safeUser))
+        localStorage.setItem('sharemeal_session', JSON.stringify(safeUser))
         return null
     }
 
@@ -72,13 +72,13 @@ export function AuthProvider({ children }) {
         setUsers(prev => [...prev, fullUser])
         const { password: _, ...safeUser } = fullUser
         setUser(safeUser)
-        localStorage.setItem('sharemeat_session', JSON.stringify(safeUser))
+        localStorage.setItem('sharemeal_session', JSON.stringify(safeUser))
         return null
     }
 
     const logout = () => {
         setUser(null)
-        localStorage.removeItem('sharemeat_session')
+        localStorage.removeItem('sharemeal_session')
     }
 
     return (
